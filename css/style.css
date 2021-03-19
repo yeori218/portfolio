@@ -76,7 +76,7 @@ a {
 }
 
 .color {
-    color: #7878ff;
+    color: #e29d99;
     font-size: 11px;
 }
 
@@ -95,7 +95,7 @@ h3 {
 }
 
 h5 {
-    color: #7878ff;
+    color: #e29d99;
 }
 
 
@@ -137,7 +137,7 @@ h5 {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background-color: #7878ff;
+    background-color: #e29d99;
     opacity: 0.6;
     position: absolute;
     top: 0;
@@ -174,9 +174,9 @@ h5 {
 }
 
 
-/* headr
+/* header
 ==================================================*/
-.container-fluid:nth-child(2){background: url(../img/bg_img1.jpg) no-repeat; background-size: cover;}
+.container-fluid:nth-child(2){background: url(../img/bg_img4.jpg) no-repeat; background-size: cover;}
 
 .box-header {
     position: absolute;
@@ -382,15 +382,15 @@ h5 {
 
 .no-touch .box-primary-nav a:hover {
     text-decoration: none;
-    color: #7878ff;
+    color: #e29d99;
 }
 
 .box-primary-nav .box-label {
-    color: #7878ff;
+    color: #e29d99;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 24px;
-    margin: 2.4em 0 .5em;
+    margin: 1.5em 0 .5em;
 }
 
 .box-primary-nav .box-social {
@@ -441,7 +441,7 @@ h5 {
 }
 
 b i:last-child {
-    color: #7878ff !important;
+    color: #e29d99 !important;
 }
 
 .box-intro h5 {
@@ -714,7 +714,7 @@ b i:last-child {
 
 .portfolio .categories-grid .categories ul li a.active {
     margin-left: 0;
-    background-color: #7878ff;
+    background-color: #e29d99;
     padding: 0px 20px;
     color: white;
     border-radius: 25px;
@@ -771,7 +771,7 @@ b i:last-child {
 .portfolio_item .portfolio_item_hover .item_info em {
     font-style: normal;
     display: inline-block;
-    background-color: #7878ff;
+    background-color: #e29d99;
     padding: 5px 20px;
     border-radius: 25px;
     color: #fff;
@@ -855,7 +855,7 @@ footer img {
     right: 10px;
     text-align: center;
     color: #fff;
-    background: rgba(120, 120, 255, 0.8);
+    background: rgba(225, 155, 155, 0.8);
     visibility: hidden;
     opacity: 0;
     -webkit-transition: opacity .3s 0s, visibility 0s .3s;
@@ -881,7 +881,7 @@ footer img {
 
 .no-touch .cd-top:hover,
 .no-touch .cd-top:focus {
-    background-color: #7878ff;
+    background-color: #e29d99;
     opacity: 1;
     color: #fff;
 }
@@ -893,8 +893,8 @@ footer img {
 .top-bar {
     color: #333;
     padding: 150px 0 150px;
-    background: -webkit-linear-gradient( rgba(255, 255, 255, .2), rgba(255, 255, 255, .2)), url(../img/portfolio/bg_img1.jpg);
-    background: linear-gradient( rgba(255, 255, 255, .2), rgba(255, 255, 255, .2)), url(../img/portfolio/bg_img1.jpg); 
+    background: -webkit-linear-gradient( rgba(255, 255, 255, .2), rgba(255, 255, 255, .2)), url(../img/bg_img4.jpg);
+    background: linear-gradient( rgba(255, 255, 255, .2), rgba(255, 255, 255, .2)), url(../img/bg_img4.jpg); 
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
@@ -922,7 +922,7 @@ footer img {
 
 .top-bar p a:hover,
 .top-bar p a:focus {
-    color: #7878ff;
+    color: #e29d99;
     text-decoration: none;
 }
 
@@ -1110,17 +1110,17 @@ textarea:focus {
 
 .cat-ul li i {
     margin-right: 10px;
-    color: #7878ff;
+    color: #e29d99;
 }
 .contents{margin-bottom: 3%;}
 
 h4{color: #333;}
 
-.social-ul a:hover p{background: #7878ff; color: #fff;}
+.social-ul a:hover p{background: #e29d99; color: #fff;}
 
 .social-ul a:hover{text-decoration: none;}
 
-.social-ul p{transition: background 0.5s; margin-bottom: 30%;}
+.social-ul p{color: #e29d99; transition: background 0.5s; margin-bottom: 30%; border: 1px solid #e29d99; padding: 20px; margin-top: 10px;}
 
 
 
@@ -1199,7 +1199,7 @@ h4{color: #333;}
   margin-bottom: 0;
 }
 #fh5co-counters .section-heading h2 {
-  color: #7878ff; font-size: 40px;
+  color: #e29d99; font-size: 40px;
 }
 #fh5co-counters .section-heading h2:after {
   background: rgba(255, 255, 255, 0.3) !important;
@@ -1212,12 +1212,17 @@ h4{color: #333;}
   z-index: 3;
   text-align: center;
 }
+
 @media screen and (max-width: 992px) {
   #fh5co-counters .fh5co-counter {
     margin-bottom: 50px;
     float: left;
     width: 100%;
   }
+
+  .box-primary-nav .box-label {
+    margin: 3.5em 0 .5em;
+}
 }
 
 #fh5co-counters .fh5co-counter .fh5co-counter-icon,
@@ -1227,7 +1232,7 @@ h4{color: #333;}
 }
 #fh5co-counters .fh5co-counter .fh5co-counter-icon {
   font-size: 40px;
-  color: #7878ff;
+  color: #e29d99;
 }
 #fh5co-counters .fh5co-counter .fh5co-counter-number {
   font-size: 70px;
